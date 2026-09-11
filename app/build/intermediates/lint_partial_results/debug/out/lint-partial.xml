@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.2.2" type="partial_results">
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.example.firecatalog.MainActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <location id="R.string.details_open"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="4"
+            column="13"
+            startOffset="126"
+            endLine="4"
+            endColumn="32"
+            endOffset="145"/>
+        <entry
+            name="model"
+            string="drawable[app_icon(U),app_banner(U)],id[details_image(U),details_back_button(U),details_category(U),catalog_fragment(U),details_description(U),details_title(U)],layout[activity_details(U),activity_main(U)],string[browse_title(U),app_name(U),details_back(U),details_open(D)],style[Theme_AppCompat_NoActionBar(R),AppTheme_Browse(U),Theme_Leanback(R),Theme_AppCompat(R),BrowseTitleText(U),TextAppearance_Leanback_Title(R),AppTheme_Details(U),AppTheme(U)];8^c,f^10^12,12^13,14^e,15^11;;;"/>
+    </map>
+
+</incidents>

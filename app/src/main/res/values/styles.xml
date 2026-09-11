@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base app theme -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <item name="colorPrimary">#1565C0</item>
+        <item name="colorPrimaryDark">#0D47A1</item>
+        <item name="colorAccent">#FFB300</item>
+    </style>
+
+    <!-- Home / grid screen: must extend a Leanback theme for BrowseSupportFragment -->
+    <style name="AppTheme.Browse" parent="Theme.Leanback">
+        <item name="browseTitleTextStyle">@style/BrowseTitleText</item>
+    </style>
+
+    <style name="BrowseTitleText" parent="TextAppearance.Leanback.Title">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <!-- Details screen: plain full-screen theme, no leanback overhead needed -->
+    <style name="AppTheme.Details" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">#000000</item>
+    </style>
+
+</resources>

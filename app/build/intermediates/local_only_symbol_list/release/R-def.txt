@@ -1,0 +1,20 @@
+R_DEF: Internal format may change without notice
+local
+drawable app_banner
+drawable app_icon
+id catalog_fragment
+id details_back_button
+id details_category
+id details_description
+id details_image
+id details_title
+layout activity_details
+layout activity_main
+string app_name
+string browse_title
+string details_back
+string details_open
+style AppTheme
+style AppTheme.Browse
+style AppTheme.Details
+style BrowseTitleText

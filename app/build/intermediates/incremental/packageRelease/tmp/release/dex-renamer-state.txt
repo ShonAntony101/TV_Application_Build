@@ -1,0 +1,4 @@
+#Tue Sep 08 15:23:49 IST 2026
+base.0=/Users/shonantony/Downloads/FireCatalogApp/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

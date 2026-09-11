@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Placeholder banner shown on the Fire TV home screen. Replace with a real
+     320x180px PNG (res/drawable-xhdpi/app_banner.png) before publishing. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#1565C0" />
+    <corners android:radius="4dp" />
+</shape>
